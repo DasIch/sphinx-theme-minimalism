@@ -1,0 +1,129 @@
+/*
+ * minimalism.css_t
+ * ~~~~~~~~~~~~~~~~
+ *
+ * Minimalism Sphinx stylesheet
+ *
+ * :copyright: 2010 by Daniel Neuhaeuser
+ * :license: BSD
+ */
+
+
+body {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    background-color: #FFF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    font-style: italic;
+}
+
+a:hover {
+    color: #000;
+}
+
+a.headerlink {
+    color: #FFF;
+}
+
+a.headerlink:hover {
+    color: #333;
+}
+
+.viewcode-link {
+    float: right;
+    color: #666;
+    font-size: 0.8em;
+}
+
+.document {
+    width: 940px;
+    margin-left: 5px;
+}
+
+.documentwrapper {
+    float: left;
+    width: 600px;
+}
+
+.sphinxsidebar {
+    float: right;
+    width: 240px;
+    margin-top: 20px;
+    color: #666;
+}
+
+.sphinxsidebar a {
+    color: #666;
+}
+
+.sphinxsidebar h3 a {
+    font-style: normal;
+    text-decoration: none;
+}
+
+input {
+    border: 1px solid #ccc;
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #ccc;
+}
+
+em.property {
+    font-size: 0.8em;
+}
+
+tt.literal {
+    font-style: italic;
+    font-size: 1em;
+}
+
+tt.descclassname, tt.descname {
+    font-size: 1.1em;
+}
+
+tt.descname {
+    font-weight: bold;
+}
+
+.footer {
+    display: none;
+}
+
+table.docutils {
+    border: none;
+}
+
+table.docutils tr {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.docutils th {
+    border-bottom: 2px solid #999;
+}
+
+table.docutils td {
+    border-bottom: 1px solid #999;
+}
+
+table.field-list th, table.field-list td {
+    border: none;
+}
+
+.highlight {
+    font-size: 0.8em;
+}
+
+ul.search li {
+    padding: 5px 5px 0 20px;
+}
