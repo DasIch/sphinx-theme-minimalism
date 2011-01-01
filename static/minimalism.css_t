@@ -95,8 +95,20 @@ tt.descname {
     font-weight: bold;
 }
 
+.clearer {
+    clear: both;
+}
+
 .footer {
-    display: none;
+    color: #999;
+    text-align: left;
+    font-size: 0.8em;
+    width: 940px;
+    margin: 0 5px 5px;
+}
+
+.footer a {
+    color: #999
 }
 
 table.docutils {
