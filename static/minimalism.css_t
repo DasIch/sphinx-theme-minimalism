@@ -143,3 +143,15 @@ table.field-list th, table.field-list td {
 ul.search li {
     padding: 5px 5px 0 20px;
 }
+
+.admonition {
+    background-color: #eee;
+    padding: 10px 0 5px 10px;
+}
+
+p.admonition-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
