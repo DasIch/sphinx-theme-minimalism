@@ -6,5 +6,11 @@ A simple Sphinx_ theme inspired by `Flasks documentation`_.
 In order for this theme to work `theme_style.py` has to be in the
 `PYTHONPATH` or `sys.path`.
 
+Options:
+
+`github_fork`
+   The name of the Github project in the form `username/project`, if set
+   this will display a Forkme ribbon.
+
 .. _Sphinx: http://sphinx.pocoo.org/
 .. _Flasks documentation: http://flask.pocoo.org/docs/

@@ -68,6 +68,10 @@ a.headerlink:hover {
     text-decoration: none;
 }
 
+.sphinxsidebar .logo {
+    border: none;
+}
+
 input {
     border: 1px solid #ccc;
     font-family: Georgia, serif;

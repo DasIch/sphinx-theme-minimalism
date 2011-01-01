@@ -1,4 +1,17 @@
 {%- extends "basic/layout.html" %}
+{%- block sidebarlogo %}
+  {{ super() }}
+  {%- if theme_is_a_pocoo_project %}
+    <p class="logo">
+      <a href="http://pocoo.org">
+        <img
+          class="logo"
+          src="{{ pathto('_static/pocoo.png', 1) }}"
+          alt="A Pocoo Project" />
+      </a>
+    </p>
+  {% endif %}
+{% endblock %}
 {%- block relbar1 %}{% endblock %}
 {%- block relbar2 %}
   {% if theme_github_fork %}
