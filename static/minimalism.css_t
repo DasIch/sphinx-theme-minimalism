@@ -89,6 +89,11 @@ em.property {
 tt.literal {
     font-style: italic;
     font-size: 1em;
+    background-color: #eee;
+}
+
+a tt.literal {
+    text-decoration: underline;
 }
 
 tt.descclassname, tt.descname {
