@@ -36,9 +36,12 @@ a.headerlink:hover {
     color: #333;
 }
 
-.viewcode-link {
+.viewcode-link, .viewcode-back {
     float: right;
     color: #666;
+}
+
+.viewcode-link {
     font-size: 0.8em;
 }
 
