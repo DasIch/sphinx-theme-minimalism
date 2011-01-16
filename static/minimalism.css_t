@@ -47,7 +47,7 @@ a.headerlink:hover {
 
 .document {
     width: 940px;
-    margin-left: 5px;
+    margin-left: 30px;
 }
 
 .documentwrapper {
