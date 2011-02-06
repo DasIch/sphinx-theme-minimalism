@@ -19,6 +19,10 @@ body {
     padding: 0;
 }
 
+h1 {
+    line-height: 1em;
+}
+
 a {
     color: #333;
     font-style: italic;
